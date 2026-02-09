@@ -1,0 +1,59 @@
+{
+  "description": "Giấy chứng nhận sinh viên được cấp học bổng hỗ trợ học tập do Trường Đại học Bách khoa Hà Nội cấp, xác nhận thông tin sinh viên và loại học bổng trong năm học cụ thể.",
+  "data": {
+    "ho_ten": {
+      "label": "Họ và tên sinh viên",
+      "required": true,
+      "meaning": "Họ và tên đầy đủ của sinh viên theo giấy tờ pháp lý"
+    },
+    "ngay_sinh": {
+      "label": "Ngày sinh",
+      "required": true,
+      "meaning": "Ngày sinh của sinh viên (ngày trong tháng)",
+      "pattern": "^\\d{1,2}$"
+    },
+    "thang_sinh": {
+      "label": "Tháng sinh",
+      "required": true,
+      "meaning": "Tháng sinh của sinh viên",
+      "pattern": "^\\d{1,2}$"
+    },
+    "nam_sinh": {
+      "label": "Năm sinh",
+      "required": true,
+      "meaning": "Năm sinh của sinh viên",
+      "pattern": "^\\d{4}$"
+    },
+    "noi_sinh": {
+      "label": "Tỉnh/Thành phố nơi sinh",
+      "required": true,
+      "meaning": "Tỉnh hoặc thành phố nơi sinh của sinh viên theo giấy khai sinh"
+    },
+    "lop": {
+      "label": "Lớp",
+      "required": true,
+      "meaning": "Lớp hành chính mà sinh viên đang theo học"
+    },
+    "mssv": {
+      "label": "Mã số sinh viên",
+      "required": true,
+      "meaning": "Mã số sinh viên do Trường Đại học Bách khoa Hà Nội cấp",
+      "pattern": "^\\d{6,10}$"
+    },
+    "khoa": {
+      "label": "Khóa",
+      "required": true,
+      "meaning": "Khóa học của sinh viên (ví dụ: 65, 66, 67)"
+    },
+    "loai_hb": {
+      "label": "Loại học bổng hỗ trợ học tập",
+      "required": true,
+      "meaning": "Loại học bổng hỗ trợ học tập mà sinh viên được cấp, có thể là toàn phần, một phần, học bổng khuyến học..."
+    },
+    "nam_hoc": {
+      "label": "Năm nhận học bổng",
+      "required": true,
+      "meaning": "Năm học sinh viên được cấp học bổng, có thể tự suy ra từ thông tin học sinh cung cấp (ví dụ: 2024-2025)"
+    }
+  }
+}

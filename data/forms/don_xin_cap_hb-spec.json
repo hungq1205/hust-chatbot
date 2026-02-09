@@ -1,0 +1,124 @@
+{
+  "description": "Đơn đăng ký xét học bổng dành cho sinh viên Trường Đại học Bách khoa Hà Nội, dùng để cung cấp thông tin cá nhân, hoàn cảnh gia đình, kết quả học tập và nguyện vọng nhận học bổng.",
+  "data": {
+    "ho_ten": {
+      "label": "Họ và tên sinh viên",
+      "required": true,
+      "meaning": "Họ và tên đầy đủ của sinh viên theo giấy tờ pháp lý"
+    },
+    "ngay_thang_nam_sinh": {
+      "label": "Ngày tháng năm sinh",
+      "required": true,
+      "meaning": "Ngày, tháng, năm sinh của sinh viên theo giấy khai sinh (ví dụ: 12/01/2006)"
+    },
+    "noi_sinh": {
+      "label": "Nơi sinh",
+      "required": true,
+      "meaning": "Tỉnh hoặc thành phố nơi sinh của sinh viên theo giấy khai sinh"
+    },
+    "gioi_tinh": {
+      "label": "Giới tính",
+      "required": true,
+      "meaning": "Giới tính của sinh viên (Nam/Nữ/Khác)"
+    },
+    "mssv": {
+      "label": "Mã số sinh viên",
+      "required": true,
+      "meaning": "Mã số sinh viên do Trường Đại học Bách khoa Hà Nội cấp",
+      "pattern": "^\\d{6,10}$"
+    },
+    "lop": {
+      "label": "Lớp",
+      "required": true,
+      "meaning": "Lớp hành chính mà sinh viên đang theo học"
+    },
+    "khoa": {
+      "label": "Khóa",
+      "required": true,
+      "meaning": "Khóa học của sinh viên (ví dụ: 69)"
+    },
+    "vien": {
+      "label": "Viện",
+      "required": true,
+      "meaning": "Viện hoặc đơn vị đào tạo mà sinh viên đang theo học"
+    },
+    "doi_tuong_chinh_sach": {
+      "label": "Đối tượng chính sách",
+      "required": true,
+      "meaning": "Sinh viên có thuộc diện chính sách, ưu tiên hay không (nếu có, ghi rõ)"
+    },
+    "dan_toc": {
+      "label": "Dân tộc",
+      "required": true,
+      "meaning": "Dân tộc của sinh viên"
+    },
+    "sdt": {
+      "label": "Số điện thoại liên hệ",
+      "required": true,
+      "meaning": "Số điện thoại sinh viên đang sử dụng để liên hệ"
+    },
+    "email": {
+      "label": "Email",
+      "required": true,
+      "meaning": "Địa chỉ email sinh viên đang sử dụng (ưu tiên email do Trường cấp)",
+      "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+    },
+    "cccd": {
+      "label": "Số CMND/CCCD",
+      "required": true,
+      "meaning": "Số Chứng minh nhân dân hoặc Căn cước công dân của sinh viên",
+      "pattern": "^\\d{9,12}$"
+    },
+    "noi_cap": {
+      "label": "Nơi cấp CMND/CCCD",
+      "required": true,
+      "meaning": "Cơ quan cấp CMND hoặc CCCD"
+    },
+    "ngay_thang_nam_cap": {
+      "label": "Ngày cấp CMND/CCCD",
+      "required": true,
+      "meaning": "Ngày, tháng, năm cấp CMND hoặc CCCD"
+    },
+    "stk": {
+      "label": "Số tài khoản ngân hàng VietinBank",
+      "required": true,
+      "meaning": "Số tài khoản ngân hàng VietinBank của sinh viên để nhận học bổng"
+    },
+    "chi_nhanh": {
+      "label": "Chi nhánh ngân hàng",
+      "required": false,
+      "meaning": "Chi nhánh VietinBank nơi sinh viên mở tài khoản"
+    },
+    "hoan_canh_gia_dinh": {
+      "label": "Hoàn cảnh gia đình",
+      "required": true,
+      "meaning": "Mô tả ngắn gọn hoàn cảnh gia đình của sinh viên"
+    },
+    "cpa": {
+      "label": "Điểm trung bình tích lũy (CPA)",
+      "required": true,
+      "meaning": "Điểm trung bình tích lũy của sinh viên tính đến thời điểm hiện tại",
+      "pattern": "^\\d(\\.\\d{1,2})?$"
+    },
+    "thanh_tich_hoc_tap": {
+      "label": "Thành tích học tập/Nghiên cứu khoa học",
+      "required": false,
+      "meaning": "Danh sách các thành tích học tập, nghiên cứu khoa học hoặc giải thưởng đã đạt được"
+    },
+    "hoat_dong_xa_hoi": {
+      "label": "Hoạt động xã hội",
+      "required": false,
+      "meaning": "Các hoạt động xã hội, phong trào, đoàn thể mà sinh viên đã tham gia trong thời gian học tại Trường"
+    },
+    "dia_chi_gia_dinh": {
+      "label": "Địa chỉ gia đình",
+      "required": true,
+      "meaning": "Địa chỉ gia đình sinh viên (dùng để liên hệ hoặc gửi thư)"
+    },
+    "hoc_bong": {
+      "label": "Học bổng đăng ký",
+      "required": true,
+      "meaning": "Tên học bổng mà sinh viên mong muốn được xét nhận"
+    }
+  }
+}

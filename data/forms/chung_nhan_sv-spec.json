@@ -1,0 +1,49 @@
+{
+  "description": "Giấy chứng nhận sinh viên do Trường Đại học Bách khoa Hà Nội cấp, xác nhận người được cấp đang là sinh viên chính quy của Trường.",
+  "data": {
+    "ho_ten": {
+      "label": "Họ và tên sinh viên",
+      "required": true,
+      "meaning": "Họ và tên đầy đủ của sinh viên theo giấy tờ pháp lý"
+    },
+    "ngay_sinh": {
+      "label": "Ngày sinh",
+      "required": true,
+      "meaning": "Ngày sinh của sinh viên (ngày trong tháng)",
+      "pattern": "^\\d{1,2}$"
+    },
+    "thang_sinh": {
+      "label": "Tháng sinh",
+      "required": true,
+      "meaning": "Tháng sinh của sinh viên",
+      "pattern": "^\\d{1,2}$"
+    },
+    "nam_sinh": {
+      "label": "Năm sinh",
+      "required": true,
+      "meaning": "Năm sinh của sinh viên",
+      "pattern": "^\\d{4}$"
+    },
+    "noi_sinh": {
+      "label": "Tỉnh/Thành phố nơi sinh",
+      "required": true,
+      "meaning": "Tỉnh hoặc thành phố nơi sinh của sinh viên theo giấy khai sinh"
+    },
+    "lop": {
+      "label": "Lớp",
+      "required": true,
+      "meaning": "Lớp hành chính mà sinh viên đang theo học"
+    },
+    "mssv": {
+      "label": "Mã số sinh viên",
+      "required": true,
+      "meaning": "Mã số sinh viên do Trường Đại học Bách khoa Hà Nội cấp",
+      "pattern": "^\\d{6,10}$"
+    },
+    "khoa": {
+      "label": "Khóa",
+      "required": true,
+      "meaning": "Khóa học của sinh viên (ví dụ: 65, 66, 67)"
+    }
+  }
+}

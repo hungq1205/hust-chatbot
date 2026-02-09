@@ -1,0 +1,53 @@
+{
+  "description": "Đơn đề nghị hỗ trợ về chi phí học tập, không phải là đơn về học bổng",
+  "data": {
+    "ho_ten": {
+      "label": "Họ và tên sinh viên",
+      "required": true,
+      "meaning": "Họ và tên đầy đủ của sinh viên theo giấy tờ pháp lý"
+    },
+    "dan_toc": {
+      "label": "Dân tộc",
+      "required": true,
+      "meaning": "Dân tộc của sinh viên (ví dụ: Kinh, Tày, Nùng, …)"
+    },
+    "ngay_thang_nam_sinh": {
+      "label": "Ngày sinh",
+      "required": true,
+      "meaning": "Ngày, tháng, năm sinh của sinh viên",
+      "format": "date",
+      "pattern": "^\\d{1,2}/\\d{1,2}/\\d{4}$"
+    },
+    "noi_sinh": {
+      "label": "Nơi sinh",
+      "required": true,
+      "meaning": "Nơi sinh của sinh viên theo giấy khai sinh"
+    },
+    "lop": {
+      "label": "Lớp",
+      "required": true,
+      "meaning": "Lớp hành chính sinh viên đang theo học"
+    },
+    "khoa": {
+      "label": "Khóa",
+      "required": true,
+      "meaning": "Khóa học của sinh viên (ví dụ: 66)"
+    },
+    "vien": {
+      "label": "Viện",
+      "required": true,
+      "meaning": "Viện hoặc khoa quản lý sinh viên tại Trường Đại học Bách khoa Hà Nội"
+    },
+    "mssv": {
+      "label": "Mã số sinh viên",
+      "required": true,
+      "meaning": "Mã số sinh viên do Trường Đại học Bách khoa Hà Nội cấp",
+      "pattern": "^\\d{8,11}$"
+    },
+    "doi_tuong": {
+      "label": "Thuộc đối tượng hỗ trợ",
+      "required": true,
+      "meaning": "Đối tượng sinh viên thuộc diện được hỗ trợ theo Quyết định số 66/2013/QĐ-TTg của Chính phủ (ghi rõ)"
+    }
+  }
+}
